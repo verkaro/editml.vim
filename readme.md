@@ -1,4 +1,4 @@
-# vim-editml-syntax
+# editml.vim
 
 A lightweight Vim plugin to add EditML markup highlighting to both standalone `.EditML` files and Markdown documents.
 
@@ -18,8 +18,8 @@ A lightweight Vim plugin to add EditML markup highlighting to both standalone `.
 Clone into your Vim `pack` directory:
 
 ```bash
-git clone https://github.com/yourname/vim-editml-syntax \
-  ~/.vim/pack/editml/start/vim-editml-syntax
+git clone https://github.com/verkaro/editml.vim \
+  ~/.vim/pack/editml/start/editml.vim
 ```
 
 Vim will automatically load the plugin on startup.
@@ -30,7 +30,7 @@ Add to your `~/.vimrc` or `init.vim`:
 
 ```vim
 call plug#begin('~/.vim/plugged')
-Plug 'yourname/vim-editml-syntax'
+Plug 'verkaro/editml.vim'
 call plug#end()
 ```
 
